@@ -1,6 +1,6 @@
 {% unless site.hide_project_footer %}
     {% if site.github.is_project_page %}
-    <p>{{ site.project-maintenance-footer | default: "This project is maintained by" }} <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+    <p><small>{{ site.project-maintenance-footer | default: "This project is maintained by" }} <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></small></p>
     {% endif %}
 {% endunless %}
 <p style="margin-bottom: 0px">
