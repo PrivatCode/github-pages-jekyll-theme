@@ -281,6 +281,9 @@ hr {
   float: left;
   -webkit-font-smoothing: subpixel-antialiased;
   flex-basis: content;
+  position: absolute;
+  bottom: 0px;
+  padding-bottom: 10px;
 }
 
 .sidebar-h3 {
